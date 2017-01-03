@@ -14,13 +14,13 @@ $textBox2.Font = "Microsoft Sans Serif,20"
 $NHI.controls.Add($textBox2)
 
 $label2 = New-Object system.windows.Forms.Label
-$label2.Text = "Invalidasdfssssssssssssssssssssssssssssssssssss"
+$label2.Text = ""
 $label2.AutoSize = $true
 $label2.Width = 25
 $label2.Height = 10
-$label2.location = new-object system.drawing.point(102,98)
+$label2.location = new-object system.drawing.point(157,98)
 $label2.Font = "Microsoft Sans Serif,10"
-$Form.controls.Add($label2)
+$NHI.controls.Add($label2)
 
 $Verify = New-Object system.windows.Forms.Button
 $Verify.Text = "Verify!"
